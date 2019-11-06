@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--
+    <bean class="org.springframework.mail.javamail.JavaMailSenderImpl">
+        &lt;!&ndash;邮件发送服务器&ndash;&gt;
+        <property name="host" value="smtp.163.com"></property>
+        &lt;!&ndash;发件人邮箱&ndash;&gt;
+        <property name="username" value="cmx16851005"></property>
+        &lt;!&ndash; 不是邮箱密码，而是邮箱的授权码 &ndash;&gt;
+        <property name="password" value="cmx111"></property>
+        &lt;!&ndash; 邮件发送的编码格式 &ndash;&gt;
+        <property name="defaultEncoding" value="UTF-8"></property>
+        <property name="javaMailProperties">
+            <props>
+                &lt;!&ndash; 邮箱服务器是否支持验证 &ndash;&gt;
+                <prop key="mail.smtp.auth">true</prop>
+                &lt;!&ndash; 邮箱服务器连接超时时间  毫秒&ndash;&gt;
+                <prop key="mail.smtp.timeout">300000</prop>
+            </props>
+        </property>
+    </bean>-->
+</beans>

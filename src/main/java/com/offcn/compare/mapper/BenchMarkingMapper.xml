@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.offcn.compare.mapper.BenchMarkingMapper" >
+
+    <insert id="insert">
+        insert into benchmarking values(null,#{companyName},#{salesAmount},#{year},
+        #{business},#{priority},#{disadvantage},#{status},#{empCount},#{createTime},#{simpleDesc})
+    </insert>
+    <select id="select" resultType="com.offcn.compare.bean.BenchMarking">
+        select * from benchmarking
+    </select>
+</mapper>
